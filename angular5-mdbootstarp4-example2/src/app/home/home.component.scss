@@ -1,0 +1,43 @@
+.container-fluid {
+    margin-top: 80px;
+}
+
+.intro-2 {
+    /*background: url("https://mdbootstrap.com/img/Photos/Others/images/89.jpg") no-repeat center center;*/
+    background: url("https://cdn.lhfs.com/lhfscdn/landingpage_images/nhf-homebuyer-bg-08-1300.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+
+/*
+.top-nav-collapse {
+   background-color: #000000 !important;
+}
+*/
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        /*background: #000000 !important; */
+    }
+}
+
+.md-form .prefix {
+    font-size: 1.5rem;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 1100px;
+    }
+}
